@@ -1,7 +1,7 @@
 # Baseimage for Docker-related Vagrant environments
 
 
-FROM phusion/baseimage:18.04-1.0.0
+FROM phusion/baseimage:jammy-1.0.1 
 LABEL Sergey Arkhipov <nineseconds@yandex.ru>
 
 # Environment variables
