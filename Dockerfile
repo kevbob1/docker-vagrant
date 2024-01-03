@@ -34,6 +34,7 @@ RUN mkdir -p /root/.ssh && \
 
 # Cleanups
 RUN rm -rf /tmp/* /var/tmp/*
+RUN rm -rf /etc/fstab
 
 # Init process is entrypoint
 ENTRYPOINT ["/sbin/my_init", "--"]
