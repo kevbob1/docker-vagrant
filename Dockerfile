@@ -19,6 +19,7 @@ RUN echo "/root" > /etc/container_environment/HOME && \
 
 # Install necessary packages
 RUN apt-get -qq update && \
+    apt-get -qq upgrade -y && \
     apt-get -qq install -y --no-install-recommends \
         git \
         vim \
